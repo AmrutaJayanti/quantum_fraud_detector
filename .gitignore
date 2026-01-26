@@ -1,0 +1,121 @@
+# ===========================
+# PYTHON / FASTAPI
+# ===========================
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyTest
+.pytest_cache/
+
+# MyPy & Pylint
+.mypy_cache/
+.dmypy.json
+pylint.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+
+# Local environment variables
+.env
+.env.*
+*.env
+
+# Any custom library directory you want ignored
+lib/
+libs/
+library/
+dependencies/
+local_lib/
+
+
+# ===========================
+# NODE / REACT
+# ===========================
+
+node_modules/
+build/
+dist/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite cache
+.vite/
+vite.env
+
+
+# ===========================
+# OS-SPECIFIC JUNK
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux temp
+*~
+
+# ===========================
+# IDE / EDITOR
+# ===========================
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+
+
+# ===========================
+# LOGS / CACHE / TEMP
+# ===========================
+
+*.log
+.cache/
+temp/
+tmp/
+
+# Local DBs
+*.sqlite3
+*.db
