@@ -48,7 +48,7 @@ export default function Dashboard() {
     }
   };
 
-
+  //Confirms delete
   const handleDeleteConfirm = async (tx_id) => {
     await deleteTransaction(tx_id);
     setDeletingTx(null);
